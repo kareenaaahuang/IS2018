@@ -1,7 +1,7 @@
 # 2018 MMLA ANALYSIS
 #### Karina Huang
 
-This folder presents analyses of the MMLA study using EDA, JVA and Kinect data. Please follow the directory structure for navigation:
+This folder presents analyses of the MMLA study using EDA, JVA and Kinect data. A demo of the study can be found at this [GitHub page](https://kareenaaahuang.github.io/IS2018_demo/).Please follow the directory structure for navigation:
 
 ```
 Analysis/
@@ -20,13 +20,6 @@ Analysis/
 			    Mediation_103118.ipynb
 			    Mediation_110718.ipynb
 			    Regression_110318.ipynb
-	data_master/
-		   EDA_JVA_Kinect_MasterScaled.csv
-		   EDA_JVA_MasterScaled.csv
-		   sessions.csv
-		   sumMovement.csv
-	data_visualization/
-			  ...csv files of clustering results
 	img/
 	   optimalK_eda_jva.png
 	   optimalK_eda_jva_kinect.png
@@ -49,19 +42,6 @@ Final analyses used for summarizing K-Means Clustering results. Please consult i
 
 Exploratory analyes conducted for independent study.
 
-### data_master
-
-1. `EDA_JVA_Kinect_MasterScaled.csv`: scaled data used for clustering with EDA, JVA, and Kinect.
-
-2. `EDA_JVA_MasterScaled.csv`: scaled data used for clustering with EDA and EDA.
-
-3. `sessions.csv`: qualitative outcome measures by group.
-
-4. `sumMovement.csv`: original data used for exploring combined Kinect movement measures; this is irrelevant to the final analysis.
-
-### data_visualization
-
-All csv files generated from clustering, saved for visualizations.
 
 ### img
 
